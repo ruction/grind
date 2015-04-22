@@ -1,0 +1,126 @@
+.container {
+    background-color: aquamarine;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-full {
+    background-color: red;
+    width: 100%;
+}
+
+.container::after,
+.container-full::after,
+.row::after {
+    clear: both;
+    display:block;
+    content: "";
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        margin: 0 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.column {
+    float: left;
+}
+
+.one.column,
+.one-offset.column {
+    width: 8.3333333333%;
+    background-color: green;
+}
+.two.column,
+.two-offset.column {
+    width: 16.666666667%;
+    background-color: yellow;
+}
+.three.column,
+.three-offset.column {
+    width: 25%;
+    background-color: gray;
+}
+.four.column,
+.four-offset.column {
+    width: 33.333333333%;
+    background-color: black;
+}
+.five.column,
+.five-offset.column {
+    width: 41.666666667%;
+    background-color: lightgoldenrodyellow;
+}
+.six.column,
+.six-offset.column {
+    width: 50%;
+    background-color: lightcyan;
+}
+.seven.column,
+.seven-offset.column {
+    width: 58.333333333%;
+    background-color: lightpink;
+}
+.eight.column,
+.eight-offset.column {
+    width: 66.666666666%;
+    background-color: palevioletred;
+}
+.nine.column,
+.nine-offset.column {
+    width: 75%;
+    background-color: white;
+}
+.ten.column,
+.ten-offset.column {
+    width: 83.333333333%;
+    background-color: blue;
+}
+.eleven.column,
+.eleven-offset.column {
+    width: 91.6666666667%;
+    background-color: lime;
+}
+.twelve.column,
+.twelve-offset.column {
+    width: 100%;
+    background-color: aqua;
+}
+
+.one-offset,
+.two-offset,
+.three-offset,
+.four-offset,
+.five-offset,
+.six-offset,
+.seven-offset,
+.eight-offset,
+.nine-offset,
+.ten-offset,
+.eleven-offset,
+.twelve-offset {
+    float: right;
+}
+
