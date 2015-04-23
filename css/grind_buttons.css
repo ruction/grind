@@ -52,15 +52,15 @@ input.button.ghost:hover {
     background-color: transparent;
 }
 
-a[class*="ani-"].button:hover,
-button[class*="ani-"].button:hover,
-input[class*="ani-"].button:hover {
+a[class*="hover-"].button:hover,
+button[class*="hover-"].button:hover,
+input[class*="hover-"].button:hover {
     background-color: deepskyblue;
 }
 
-a[class*="ani-"].button.ghost:hover,
-button[class*="ani-"].button.ghost:hover,
-input[class*="ani-"].button.ghost:hover {
+a[class*="hover-"].button.ghost:hover,
+button[class*="hover-"].button.ghost:hover,
+input[class*="hover-"].button.ghost:hover {
     background-color: transparent;
     border: 2px solid deepskyblue;
     color: deepskyblue;
