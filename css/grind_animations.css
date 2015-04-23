@@ -1,0 +1,85 @@
+/*
+* Grind V0.0.1
+* Copyright 2015, Benjamin Woehrl
+* www.benjaminwoehrl.de
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/22/2015
+*/
+
+
+@-webkit-keyframes ani-bury {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@-moz-keyframes ani-bury {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@-o-keyframes ani-bury {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes ani-bury {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+.ani-bury:hover {
+    -webkit-animation: ani-bury 0.2s normal forwards;
+    -moz-animation: ani-bury 0.2s normal forwards;
+    -o-animation: ani-bury 0.2s normal forwards;
+    animation: ani-bury 0.2s normal forwards;
+}
