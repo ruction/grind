@@ -1,0 +1,18 @@
+/*
+* Grind V0.0.1
+* Copyright 2015, Benjamin Woehrl
+* www.benjaminwoehrl.de
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/22/2015
+*/
+
+
+pre {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    overflow: auto;
+    width: auto;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #eee;
+}

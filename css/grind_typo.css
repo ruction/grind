@@ -8,6 +8,38 @@
 */
 
 
+h1 {
+
+}
+
+h2 {
+    margin: 16px 0;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+b {
+
+}
+
+u {
+
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -35,22 +67,3 @@ ul.horizontal li {
 li.divider {
     border-top: 1px solid gray;
 }
-
-
-h1 {
-
-}
-
-h2 {
-    margin: 16px 0;
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-
