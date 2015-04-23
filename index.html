@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/grind_grid.min.css">
     <link rel="stylesheet" href="css/grind_typo.min.css">
     <link rel="stylesheet" href="css/grind_buttons.min.css">
+    <link rel="stylesheet" href="css/grind_code.min.css">
     <link rel="stylesheet" href="css/grind_animations.min.css">
     <link rel="stylesheet" href="css/grind_helper_classes.min.css">
 
@@ -40,7 +41,7 @@
             color: white;
         }
 
-        #nav>ul.horizontal {
+        nav>ul.horizontal {
             float: right;
         }
 
@@ -60,14 +61,14 @@
             <div class="three">
                 <h1><a href="#">grind</a></h1>
             </div>
-            <div id="nav" class="nine">
+            <nav class="nine">
                 <ul class="horizontal">
                     <li><a href="/">HOME</a></li>
                     <li><a href="http://www.benjaminwoehrl.com" target= "_blank">ABOUT</a></li>
                     <li><a href="https://github.com/ruction/grind" target= "_blank">GITHUB</a></li>
                     <li><a href="#donate">DONATE</a></li>
                 </ul>
-            </div>
+            </nav>
         </div><!-- row -->
     </header>
 </div><!-- container-full -->
@@ -87,7 +88,7 @@
                 <li><a href="#browsersupport">Browsersupport</a></li>
             </ul>
         </div>
-        <div class="nine">
+        <main class="nine">
             <section id="overview">
                 <h2>Overview</h2>
                 <p>
@@ -103,17 +104,8 @@
                     pariatur porro reiciendis velit voluptas!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
                 </p>
+                <button class="button ani-bury">download</button>
             </section>
             <section id="grid">
                 <h2>Grid</h2>
@@ -122,6 +114,7 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
+
             </section>
             <section id="buttons">
                 <h2>Buttons</h2>
@@ -131,6 +124,13 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
+<pre><code>
+    &lt;a class="button" href="#" role="button"&gt;Link&lt;/a&gt;
+    &lt;button class="button" type="submit"&gt;Button&lt;/button&gt;
+    &lt;input class="button" type="button" value=&quot;Input&quot;&gt;
+    &lt;input class="button" type="submit" value=&quot;Submit&quot;&gt;
+
+</code></pre>
                 <a class="button" href="#" role="button">Link</a>
                 <button class="button" type="submit">Button</button>
                 <input class="button" type="button" value="Input">
@@ -142,6 +142,13 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
+<pre><code>
+    &lt;a class="button ghost" href="#" role="button"&gt;Link&lt;/a&gt;
+    &lt;button class="button ghost" type="submit"&gt;Button&lt;/button&gt;
+    &lt;input class="button ghost" type="button" value="Input"&gt;
+    &lt;input class="button ghost" type="submit" value="Submit"&gt;
+
+</code></pre>
                 <a class="button ghost" href="#" role="button">Link</a>
                 <button class="button ghost" type="submit">Button</button>
                 <input class="button ghost" type="button" value="Input">
@@ -153,6 +160,13 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
+<pre><code>
+    &lt;a class="button ani-bury" href="#" role="button"&gt;Link&lt;/a&gt;
+    &lt;button class="button ani-bury" type="submit"&gt;Button&lt;/button&gt;
+    &lt;input class="button ani-bury" type="button" value="Input"&gt;
+    &lt;input class="button ani-bury" type="submit" value="Submit"&gt;
+
+</code></pre>
                 <a class="button ani-bury" href="#" role="button">Link</a>
                 <button class="button ani-bury" type="submit">Button</button>
                 <input class="button ani-bury" type="button" value="Input">
@@ -164,6 +178,13 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
+<pre><code>
+    &lt;a class="button ghost ani-bury" href="#" role="button"&gt;Link&lt;/a&gt;
+    &lt;button class="button ghost ani-bury" type="submit"&gt;Button&lt;/button&gt;
+    &lt;input class="button ghost ani-bury " type="button" value="Input"&gt;
+    &lt;input class="button ghost ani-bury" type="submit" value="Submit"&gt;
+
+</code></pre>
                 <a class="button ghost ani-bury" href="#" role="button">Link</a>
                 <button class="button ghost ani-bury" type="submit">Button</button>
                 <input class="button ghost ani-bury " type="button" value="Input">
@@ -195,6 +216,12 @@
             </section>
             <section id="code">
                 <h2>Code</h2>
+<pre>
+<code>
+    &lt;pre&gt;&lt;code&gt;Your code ... &lt;\pre&gt;&lt;\code&gt;
+</code>
+</pre>
+
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
@@ -220,7 +247,7 @@
             <section id="donate">
                 <h2>Donate</h2>
             </section>
-        </div>
+        </main>
     </div><!-- row -->
 
     <!--<div class="row">-->
