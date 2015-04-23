@@ -1,0 +1,56 @@
+/*
+* Grind V0.0.1
+* Copyright 2015, Benjamin Woehrl
+* www.benjaminwoehrl.de
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/22/2015
+*/
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0 0 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ul.horizontal li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+li.divider {
+    border-top: 1px solid gray;
+}
+
+
+h1 {
+
+}
+
+h2 {
+    margin: 16px 0;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+
