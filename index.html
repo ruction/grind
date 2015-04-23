@@ -20,16 +20,16 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 
     <style>
-        <!--.row {-->
-            <!--margin: 5px 0;-->
-        <!--}-->
+        #grid_demo .row {
+            margin: 5px 0;
+        }
 
-        <!--.row>div {-->
-            <!--background-color: lightgray;-->
-            <!--padding: 10px;-->
-            <!--border: 1px solid gray;-->
-            <!--box-sizing: border-box;-->
-        <!--}-->
+        #grid_demo .row div {
+            background-color: lightgray;
+            padding: 10px;
+            border: 1px solid gray;
+            box-sizing: border-box;
+        }
 
         header {
             background-color: deepskyblue;
@@ -121,7 +121,23 @@
                     architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
                     pariatur porro reiciendis velit voluptas!
                 </p>
-
+                <div id="grid_demo">
+                    <div class="row">
+                        <div class="one">one</div>
+                        <div class="ten-offset">ten-offset</div>
+                    </div>
+                    <div class="row">
+                        <div class="two">two</div>
+                        <div class="ten">ten</div>
+                    </div>
+                    <div class="row">
+                        <div class="three">three</div>
+                        <div class="nine">nine</div>
+                    </div>
+                        <div class="row">
+                        <div class="two center">two center</div>
+                    </div>
+                </div>
             </section>
             <section id="buttons">
                 <h2>Buttons</h2>
@@ -265,22 +281,6 @@
             </section>
         </main>
     </div><!-- row -->
-
-    <!--<div class="row">-->
-        <!--<div class="one">one</div>-->
-        <!--<div class="ten-offset">ten-offset</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-        <!--<div class="two">two</div>-->
-        <!--<div class="ten">ten</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-        <!--<div class="three">three</div>-->
-        <!--<div class="nine">nine</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-        <!--<div class="two center">two center</div>-->
-    <!--</div>-->
 </div><!-- container -->
 <div class="container-full">
     <footer>
