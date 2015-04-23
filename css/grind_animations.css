@@ -63,7 +63,58 @@
 
 .ani-pulse {
     -webkit-animation: ani-pulse 1.5s infinite;
-    -moz-animation: ani-pulse 0.2s infinite;
-    -o-animation: ani-pulse 0.2s infinite;
-    animation: ani-pulse 0.2s infinite;
+    -moz-animation: ani-pulse 1.5s infinite;
+    -o-animation: ani-pulse 1.5s infinite;
+    animation: ani-pulse 1.5s infinite;
 }
+
+
+@-webkit-keyframes ani-bounce {
+    0% {bottom: 0;}
+    10% {bottom: 10px;}
+    20% {bottom: 0;}
+    30% {bottom: 5px;}
+    40% {bottom: 0;}
+    50% {bottom: 0;}
+    100% {bottom: 0;}
+}
+
+@-moz-keyframes ani-bounce {
+    0% {bottom: 0;}
+    10% {bottom: 10px;}
+    20% {bottom: 0;}
+    30% {bottom: 5px;}
+    40% {bottom: 0;}
+    50% {bottom: 0;}
+    100% {bottom: 0;}
+}
+
+@-o-keyframes ani-bounce {
+    0% {bottom: 0;}
+    10% {bottom: 10px;}
+    20% {bottom: 0;}
+    30% {bottom: 5px;}
+    40% {bottom: 0;}
+    50% {bottom: 0;}
+    100% {bottom: 0;}
+}
+
+@keyframes ani-bounce {
+    0% {bottom: 0;}
+    10% {bottom: 10px;}
+    20% {bottom: 0;}
+    30% {bottom: 5px;}
+    40% {bottom: 0;}
+    50% {bottom: 0;}
+    100% {bottom: 0;}
+}
+
+.ani-bounce {
+    position: relative;
+    bottom: 0;
+    -webkit-animation: ani-bounce 3s infinite;
+    -moz-animation: ani-bounce 3s infinite;
+    -o-animation: ani-bounce 3s infinite;
+    animation: ani-bounce 3s infinite;
+}
+
