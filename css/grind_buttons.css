@@ -1,0 +1,31 @@
+/*
+* Grind V0.0.1
+* Copyright 2015, Benjamin Woehrl
+* www.benjaminwoehrl.de
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/22/2015
+*/
+
+a.button,
+button.button,
+input.button {
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+a.button {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a.button.ghost,
+button.button.ghost,
+input.button.ghost {
+    background-color: transparent;
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+    padding: 8px 18px;
+}
