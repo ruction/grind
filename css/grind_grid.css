@@ -1,3 +1,12 @@
+/*
+* Grind V0.0.1
+* Copyright 2015, Benjamin Woehrl
+* www.benjaminwoehrl.de
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/22/2015
+*/
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -18,61 +27,78 @@
 .one,
 .one-offset {
     width: 8.3333333333%;
-    float: left;
 }
 .two,
 .two-offset {
     width: 16.666666667%;
-    float: left;
 }
 .three,
 .three-offset {
     width: 25%;
-    float: left;
 }
 .four,
 .four-offset {
     width: 33.333333333%;
-    float: left;
 }
 .five,
 .five-offset {
     width: 41.666666667%;
-    float: left;
 }
 .six,
 .six-offset {
     width: 50%;
-    float: left;
 }
 .seven,
 .seven-offset {
     width: 58.333333333%;
-    float: left;
 }
 .eight,
 .eight-offset {
     width: 66.666666666%;
-    float: left;
 }
 .nine,
 .nine-offset {
     width: 75%;
-    float: left;
 }
 .ten,
 .ten-offset {
     width: 83.333333333%;
-    float: left;
 }
 .eleven,
 .eleven-offset {
     width: 91.6666666667%;
-    float: left;
 }
 .twelve,
 .twelve-offset {
     width: 100%;
+}
+
+.one,
+.one-offset,
+.two,
+.two-offset,
+.three,
+.three-offset,
+.four,
+.four-offset,
+.five,
+.five-offset,
+.six,
+.six-offset,
+.seven,
+.seven-offset,
+.eight,
+.eight-offset,
+.nine,
+.nine-offset,
+.ten,
+.ten-offset,
+.eleven,
+.eleven-offset,
+.twelve,
+.twelve-offset {
+    padding: 10px;
+    box-sizing: border-box;
     float: left;
 }
 
@@ -94,10 +120,6 @@
 .center {
     float: none;
     margin: 0 auto;
-}
-
-.border {
-    border: 1px solid lightgray;
 }
 
 @media (max-width: 768px) {
