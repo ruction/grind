@@ -9,41 +9,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grind.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/grind_grid.min.css">
+    <link rel="stylesheet" href="css/grind_typo.min.css">
+    <link rel="stylesheet" href="css/grind_buttons.min.css">
+    <link rel="stylesheet" href="css/grind_helper_classes.min.css">
 
-    <!--<link rel="icon" type="image/png" href="img/favicon.png">-->
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
     <style>
-        .row {
-            margin: 5px 0;
+        <!--.row {-->
+            <!--margin: 5px 0;-->
+        <!--}-->
+
+        <!--.row>div {-->
+            <!--background-color: lightgray;-->
+            <!--padding: 10px;-->
+            <!--border: 1px solid gray;-->
+            <!--box-sizing: border-box;-->
+        <!--}-->
+
+        header {
+            background-color: deepskyblue;
+            height: 200px;
         }
 
-        .row>div {
-            background-color: silver;
-            padding: 10px;
-            border: 1px solid gray;
-            box-sizing: border-box;
+        header a,
+        header ul a {
+            color: white;
         }
+
+        #nav>ul.horizontal {
+            float: right;
+        }
+
+
+        footer {
+            margin-top: 50px;
+            height: 100px;
+            background-color: deepskyblue;
+        }
+
     </style>
 </head>
 <body>
+<div class="container-full">
+    <header>
+        <div class="row">
+            <div class="three">
+                <h1><a href="#">grind</a></h1>
+            </div>
+            <div id="nav" class="nine">
+                <ul class="horizontal">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="http://www.benjaminwoehrl.com" target= "_blank">ABOUT</a></li>
+                    <li><a href="https://github.com/ruction/grind" target= "_blank">GITHUB</a></li>
+                    <li><a href="#donate">DONATE</a></li>
+                </ul>
+            </div>
+        </div><!-- row -->
+    </header>
+</div><!-- container-full -->
 <div class="container">
     <div class="row">
-        <div class="one">one</div>
-        <div class="ten-offset">ten-offset</div>
-    </div>
-    <div class="row">
-        <div class="two">two</div>
-        <div class="ten">ten</div>
-    </div>
-    <div class="row">
-        <div class="three">three</div>
-        <div class="nine">nine</div>
-    </div>
-    <div class="row">
-        <div class="two center">two center</div>
-    </div>
-</div>
+        <div id="sidebar" class="three">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#typo">Typo</a></li>
+                <li><a href="#helper_classes">Helper Classes</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#amimations">Animations</a></li>
+                <li class="divider"></li>
+                <li><a href="#browsersupport">Browsersupport</a></li>
+            </ul>
+        </div>
+        <div class="nine">
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="grid">
+                <h2>Grid</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="buttons">
+                <h2>Buttons</h2>
+                <a class="button" href="#" role="button">Link</a>
+                <button class="button" type="submit">Button</button>
+                <input class="button" type="button" value="Input">
+                <input class="button" type="submit" value="Submit">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+                <a class="button ghost" href="#" role="button">Link</a>
+                <button class="button ghost" type="submit">Button</button>
+                <input class="button ghost" type="button" value="Input">
+                <input class="button ghost" type="submit" value="Submit">
+            </section>
+            <section id="typo">
+                <h2>Typo</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="helper_classes">
+                <h2>Helper Classes</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="forms">
+                <h2>Forms</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="code">
+                <h2>Code</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="animations">
+                <h2>Animations</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="browsersupport">
+                <h2>Browsersupport</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
+                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    pariatur porro reiciendis velit voluptas!
+                </p>
+            </section>
+            <section id="donate">
+                <h2>Donate</h2>
+            </section>
+        </div>
+    </div><!-- row -->
+
+    <!--<div class="row">-->
+        <!--<div class="one">one</div>-->
+        <!--<div class="ten-offset">ten-offset</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="two">two</div>-->
+        <!--<div class="ten">ten</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="three">three</div>-->
+        <!--<div class="nine">nine</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="two center">two center</div>-->
+    <!--</div>-->
+</div><!-- container -->
+<div class="container-full">
+    <footer>
+        <div class="row">
+            <div class="twelve"></div>
+        </div>
+    </footer>
+</div><!-- container-full -->
 </body>
 </html>
