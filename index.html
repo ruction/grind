@@ -35,12 +35,18 @@
 
         header {
             background-color: deepskyblue;
-            height: 200px;
+            min-height: 200px;
         }
 
         header a,
         header ul a {
             color: white;
+        }
+        
+        img#logo {
+            max-width: 400px;
+            width: 100%;
+            margin-top: 28px;
         }
 
         nav>ul.horizontal {
@@ -67,10 +73,11 @@
 <div class="container-full">
     <header>
         <div class="row">
-            <div class="three">
-                <h1><a href="#">grind</a></h1>
+            <div class="one"></div>
+            <div class="seven">
+                <h1><a href="/"><img id="logo" src="img/logo.png" /></a></h1>
             </div>
-            <nav class="nine">
+            <nav class="four">
                 <ul class="horizontal">
                     <li><a href="/">HOME</a></li>
                     <li><a href="http://www.benjaminwoehrl.com" target= "_blank">ABOUT</a></li>
