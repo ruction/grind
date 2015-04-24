@@ -11,6 +11,7 @@
 a.button,
 button.button,
 input.button {
+    border-radius: 0;
     background-color: deepskyblue;
     border: none;
     color: white;
