@@ -66,4 +66,5 @@ ul.horizontal li {
 
 li.divider {
     border-top: 1px solid gray;
+    margin: 12px 0;
 }
