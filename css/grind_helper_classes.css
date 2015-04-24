@@ -16,6 +16,11 @@
     float: left;
 }
 
+.center {
+    float: none;
+    margin: 0 auto;
+}
+
 .left::after,
 .right::after {
     clear: both;

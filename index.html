@@ -22,11 +22,11 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 
     <style>
-        #grid_demo .row {
+        .grid_demo .row {
             margin: 5px 0;
         }
 
-        #grid_demo .row div {
+        .grid_demo .row div {
             background-color: lightgray;
             padding: 10px;
             border: 1px solid gray;
@@ -108,29 +108,41 @@
         </div>
         <main class="nine">
             <section id="overview">
-                <h2>Overview</h2>
+                <h2>What is grind?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    Yes... grind is an other css framework. But! Its free, lightweight, responsive, open source and modular.
+                    <br><br>
+                    Grind comes with a minimal set of stylesheets with whom you are able to build responsive websites
+                    without overhead. And that is as easy as winking. Use this framework or parts of it if you are slained by the
+                    modern frameworks functionalities.
+                    <br>
+                    Just download the grind package, add the css folder to your web project and link the stylesheets you
+                    want to your HTML head.
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
+                    <br><br>
+                    Grind is separated as followed:
+                </p>
+
+                <ol>
+                    <li><b>Normalize.css</b> - </li>
+                    <li><b>Grid</b> - responsive, 12 columns, centerd and full width container</li>
+                    <li><b>Buttons</b> - default, ghost</li>
+                    <li><b>Typo</b> - ul, headings</li>
+                    <li><b>Helper Classes</b> - floating</li>
+                    <li><b>Forms</b></li>
+                    <li><b>Code</b> - clean code presentation</li>
+                    <li><b>Animations</b> - hover effects and animations based on CSS</li>
+                </ol>
+                <p>
+                    You can choose the readable .css files or the minified ones.
                 </p>
                 <button class="button ani-bury">download</button>
             </section>
             <section id="howtouse">
                 <h2>How To Use</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    As previously mentioned, to work with grind just link the stylesheets and add the viewport meta information.
+                    The code below is representing a clean grind html file with all modules included.
                 </p>
 <pre><code>
     &lt;!DOCTYPE html&gt;
@@ -163,23 +175,31 @@
 </code></pre>
                 <h3>Normalize.css</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    coming soon...
                 </p>
             </section>
             <section id="grid">
                 <h2>Grid</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    The responsive grind grid is the most important module.
+                    <br>
+                    As followed a list of the available css classes:
                 </p>
+                <ol>
+                    <li><b>.one - .twelve:</b> The common column elements</li>
+                    <li><b>.one-offset - .twelve-offset:</b> A offset column element floats to the right side</li>
+                </ol>
+
+                <h3>Container types</h3>
+
+                    <h4>.container</h4>
+                    <p>This enables a centered grid with the maximal width of 1170px which shrinks due to the display
+                    width.</p>
 <pre><code>
     &lt;div class="container"&gt;
         &lt;div class="row"&gt;
             &lt;div class="one"&gt;one&lt;/div&gt;
-            &lt;div class="ten-offset"&gt;ten-offset&lt;/div&gt;
+            &lt;div class="eleven"&gt;eleven&lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="row"&gt;
             &lt;div class="two"&gt;two&lt;/div&gt;
@@ -190,37 +210,124 @@
             &lt;div class="nine"&gt;nine&lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="row"&gt;
+            &lt;div class="four"&gt;four&lt;/div&gt;
+            &lt;div class="eight"&gt;eight&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="five"&gt;five&lt;/div&gt;
+            &lt;div class="seven"&gt;seven&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="six"&gt;six&lt;/div&gt;
+            &lt;div class="six"&gt;six&lt;/div&gt;<
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="seven"&gt;seven&lt;/div&gt;
+            &lt;div class="five"&gt;five&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="eight"&gt;eight&lt;/div&gt;
+            &lt;div class="four"&gt;four&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="nine"&gt;nine&lt;/div&gt;
+            &lt;div class="three"&gt;three&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="ten"&gt;ten&lt;/div&gt
+            &lt;div class="two"&gt;two&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="eleven"&gt;eleven&lt;/div&gt;
+            &lt;div class="one"&gt;one&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="twelve"&gt;twelve&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="one"&gt;one&lt;/div&gt;
+            &lt;div class="ten-offset"&gt;ten-offset&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
             &lt;div class="two center"&gt;two center&lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
 </code></pre>
-                <div id="grid_demo">
-                    <div class="row">
-                        <div class="one">one</div>
-                        <div class="ten-offset">ten-offset</div>
-                    </div>
-                    <div class="row">
-                        <div class="two">two</div>
-                        <div class="ten">ten</div>
-                    </div>
-                    <div class="row">
-                        <div class="three">three</div>
-                        <div class="nine">nine</div>
-                    </div>
+                    <div class="grid_demo">
                         <div class="row">
-                        <div class="two center">two center</div>
+                            <div class="one">one</div>
+                            <div class="eleven">eleven</div>
+                        </div>
+                        <div class="row">
+                            <div class="two">two</div>
+                            <div class="ten">ten</div>
+                        </div>
+                        <div class="row">
+                            <div class="three">three</div>
+                            <div class="nine">nine</div>
+                        </div>
+                        <div class="row">
+                            <div class="four">four</div>
+                            <div class="eight">eight</div>
+                        </div>
+                        <div class="row">
+                            <div class="five">five</div>
+                            <div class="seven">seven</div>
+                        </div>
+                        <div class="row">
+                            <div class="six">six</div>
+                            <div class="six">six</div>
+                        </div>
+                        <div class="row">
+                            <div class="seven">seven</div>
+                            <div class="five">five</div>
+                        </div>
+                        <div class="row">
+                            <div class="eight">eight</div>
+                            <div class="four">four</div>
+                        </div>
+                        <div class="row">
+                            <div class="nine">nine</div>
+                            <div class="three">three</div>
+                        </div>
+                        <div class="row">
+                            <div class="ten">ten</div>
+                            <div class="two">two</div>
+                        </div>
+                        <div class="row">
+                            <div class="eleven">eleven</div>
+                            <div class="one">one</div>
+                        </div>
+                        <div class="row">
+                            <div class="twelve">twelve</div>
+                        </div>
+                        <div class="row">
+                            <div class="one">one</div>
+                            <div class="ten-offset">ten-offset</div>
+                        </div>
+                        <div class="row">
+                            <div class="two center">two center</div>
+                        </div>
                     </div>
-                </div>
+
+                    <h4>.container-full</h4>
+                    <p>Enable the full width grid:</p>
+<pre><code>
+    &lt;div class="container-full"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="one"&gt;one&lt;/div&gt;
+            &lt;div class="eleven"&gt;elevent&lt;/div&gt;
+        &lt;/div&gt;
+        ...
+    &lt;/div&gt;
+
+</code></pre>
             </section>
             <section id="buttons">
                 <h2>Buttons</h2>
-                <h3>Simple default button</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
+                <h3>Button types</h3>
+                <h4>.button</h4>
 <pre><code>
     &lt;a class="button" href="#" role="button"&gt;Link&lt;/a&gt;
     &lt;button class="button" type="submit"&gt;Button&lt;/button&gt;
@@ -233,12 +340,7 @@
                 <input class="button" type="button" value="Input">
                 <input class="button" type="submit" value="Submit">
 
-                <h3>Ghost button</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
+                <h4>.button .ghost</h4>
 <pre><code>
     &lt;a class="button ghost" href="#" role="button"&gt;Link&lt;/a&gt;
     &lt;button class="button ghost" type="submit"&gt;Button&lt;/button&gt;
@@ -252,13 +354,13 @@
                 <input class="button ghost" type="submit" value="Submit">
 
                 <h3>Hover Animations</h3>
-
-                <h4>Default button with a fancy hover animation</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    You can enhance your button with a fancy hover effect.
+                    Just add the relevant class to your button:
                 </p>
+                <ol>
+                    <li>hover-bury</li>
+                </ol>
 <pre><code>
     &lt;a class="button hover-bury" href="#" role="button"&gt;Link&lt;/a&gt;
     &lt;button class="button hover-bury" type="submit"&gt;Button&lt;/button&gt;
@@ -271,12 +373,6 @@
                 <input class="button hover-bury" type="button" value="Input">
                 <input class="button hover-bury" type="submit" value="Submit">
 
-                <h4>Ghost button with a fancy hover animation</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
 <pre><code>
     &lt;a class="button ghost hover-bury" href="#" role="button"&gt;Link&lt;/a&gt;
     &lt;button class="button ghost hover-bury" type="submit"&gt;Button&lt;/button&gt;
@@ -294,11 +390,6 @@
                 <h2>Typo</h2>
                 <div class="row">
                     <div class="six">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                            architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                            pariatur porro reiciendis velit voluptas!
-                        </p>
 <pre><code>
     &lt;h1&gt;Heading h1&lt;/h1&gt;
     &lt;h2&gt;Heading h2&lt;/h2&gt;
@@ -310,6 +401,7 @@
     &lt;p&gt;Lorem ipsum ...&lt;/p&gt;
     &lt;strong&gt;strong&lt;/strong&gt;
     &lt;u&gt;underlined&lt;/u&gt;
+    &lt;b&gt;bold&lt;/b&gt;
 
 </code></pre>
 
@@ -331,28 +423,44 @@
                         <br>
                         <br>
                         <u>underlined</u>
+                        <br>
+                        <br>
+                        <b>bold</b>
                     </div>
                 </div>
             </section>
             <section id="helper_classes">
                 <h2>Helper Classes</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    Some usefull css classes:
+                </p>
+                <ol>
+                    <li>.right</li>
+                    <li>.left</li>
+                    <li>.center</li>
+                </ol>
+
+                <p>
+                    For example: You can center your column.
                 </p>
 <pre><code>
-    .right, .left
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="two center"&gt;two center&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 
 </code></pre>
+
+            <div class="grid_demo">
+                <div class="row">
+                    <div class="two center">two center</div>
+                </div>
+            </div>
             </section>
             <section id="forms">
                 <h2>Forms</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
+                <p>coming soon...</p>
             </section>
             <section id="code">
                 <h2>Code</h2>
@@ -361,49 +469,40 @@
     &lt;pre&gt;&lt;code&gt;Your code ... &lt;/pre&gt;&lt;/code&gt;
 </code>
 </pre>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
             </section>
             <section id="animations">
                 <h2>Animations</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
+                    Some fancy css animations you can add to whatever you want.
                 </p>
 <pre>
 <code>
     &lt;div class="brick ani-pulse"&gt;ani-pulse&lt;/div&gt;
     &lt;div class="brick ani-bounce"&gt;ani-bounce&lt;/div&gt;
+    &lt;img src="img/icon_sw.png" class="ani-pulse"/&gt;
+    &lt;img src="img/icon_sw.png" class="ani-bounce"/&gt;
 </code>
 </pre>
 
                 <div class="brick ani-pulse">ani-pulse</div>
                 <div class="brick ani-bounce">ani-bounce</div>
+                <br><br>
+                <img src="img/icon_sw.png" class="ani-pulse"/>
+                <img src="img/icon_sw.png" class="ani-bounce"/>
+
 
             </section>
             <section id="browsersupport">
                 <h2>Browsersupport</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
+                <p>coming soon...</p>
             </section>
             <section id="examplepages">
                 <h2>Example Pages</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis ipsa tempore! Ab
-                    architecto assumenda corporis ducimus fugiat hic, illo in itaque libero maxime, nulla
-                    pariatur porro reiciendis velit voluptas!
-                </p>
+                <p>coming soon...</p>
             </section>
             <section id="license">
                 <h2>License</h2>
+                <p>coming soon...</p>
             </section>
             <section id="donate">
                 <h2>Donate</h2>
