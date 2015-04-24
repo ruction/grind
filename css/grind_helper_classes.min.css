@@ -1,1 +1,1 @@
-.right{float:right}.left{float:left}.center{float:none;margin:0 auto}.left::after,.right::after{clear:both;display:table;content:""}
+.right{float:right}.left{float:left}.center{float:none;margin:0 auto}.left::after,.right::after{clear:both;display:table;content:""}.underlined{border-bottom:1px solid lightgray}

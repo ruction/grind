@@ -28,4 +28,8 @@
     content: "";
 }
 
+.underlined {
+    border-bottom: 1px solid lightgray;
+}
+
 
