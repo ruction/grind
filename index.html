@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/grind_forms.min.css">
     <link rel="stylesheet" href="css/grind_code.min.css">
     <link rel="stylesheet" href="css/grind_animations.min.css">
+    <link rel="stylesheet" href="css/grind_modal.min.css">
 
 
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -98,6 +99,7 @@
                 <li><a href="#typo">Typo</a></li>
                 <li><a href="#helper_classes">Helper Classes</a></li>
                 <li><a href="#forms">Forms</a></li>
+                <li><a href="#modal">Modal</a></li>
                 <li><a href="#code">Code</a></li>
                 <li><a href="#animations">Animations</a></li>
                 <li class="divider"></li>
@@ -454,6 +456,32 @@
             <section id="forms">
                 <h2 class="underlined">Forms</h2>
                 <p>coming soon...</p>
+            </section>
+            <section id="modal">
+                <h2 class="underlined">Modal</h2>
+                <p>A clean modal with a close button.</p>
+<pre>
+<code>
+    &lt;div id="contact_modal" class="modal"&gt;
+        &lt;div class="modal_container"&gt;
+            &lt;a href="#close" title="Close" class="modal_close"&gt;X&lt;/a&gt;
+
+            &lt;h2&gt;Modal&lt;/h2&gt;
+            &lt;p&gt;Sample modal using CSS3.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a href="#contact_modal" class="button">show modal&lt;/a&gt;
+</code>
+</pre>
+                <div id="contact_modal" class="modal">
+                    <div class="modal_container">
+                        <a href="#close" title="Close" class="modal_close">X</a>
+
+                        <h2>Modal</h2>
+                        <p>Sample modal using CSS3.</p>
+                    </div>
+                </div>
+                <a href="#contact_modal" class="button">show modal</a>
             </section>
             <section id="code">
                 <h2 class="underlined">Code</h2>
